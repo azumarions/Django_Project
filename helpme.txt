@@ -1,0 +1,5 @@
+rabbitmq
+インストール brew install rabbitmq
+起動　/usr/local/sbin/rabbitmq-server -detached
+確認　/usr/local/sbin/rabbitmqctl status
+停止　/usr/local/sbin/rabbitmqctl stop
