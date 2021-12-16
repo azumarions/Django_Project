@@ -19,7 +19,7 @@ class Cart(object):
             cart = self.session[settings.CART_SESSION_ID] = {}
         self.cart = cart
         # store current applied coupon
-        self.coupon_id = self.session.get['coupon_id']
+        self.coupon_id = self.session.get('coupon_id')
 
     def __iter__(self):
         """
